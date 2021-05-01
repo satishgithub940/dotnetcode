@@ -16,6 +16,7 @@ namespace mys3
             s3Client = new AmazonS3Client(RegionEndpoint.USEast1);
             var bucketName = "mys3test1003";
             
+            //Test branch satish
             //Create Bucket
             //s3Client.PutBucketAsync(bucketName).Wait();
            // Console.WriteLine("Created the bucket named '{0}'.", bucketName);
